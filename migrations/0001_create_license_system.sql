@@ -1,5 +1,6 @@
 -- migrations/0001_create_license_system.sql
-PRAGMA foreign_keys = ON;
+
+PRAGMA defer_foreign_keys = true
 
 CREATE TABLE customers (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
