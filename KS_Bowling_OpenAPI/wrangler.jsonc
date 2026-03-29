@@ -1,16 +1,17 @@
 {
 	"compatibility_date": "2025-10-08",
 	"main": "src/index.ts",
-	"name": "chanfana-openapi-template",
+	"name": "ks_bowling_online_services",
 	"upload_source_maps": true,
 	"observability": {
 		"enabled": true
 	},
 	"d1_databases": [
 		{
-			"binding": "DB",
-			"database_name": "openapi-template-db",
-			"database_id": "91f8c7ba-7311-4897-a268-c13ee377ada9"
+			"binding": "license_service_db",
+			"database_name": "license_service_db",
+			"database_id": "151d652f-c96d-407f-b47d-05c70e0b0f51",
+			"remote": true
 		}
 	]
 }
